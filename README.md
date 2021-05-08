@@ -25,8 +25,10 @@ O objetivo do projeto é criar um App de `To do list` do zero mostrando o proces
 - Aula - 06: Criando a tela criar tarefas.
 - Aula - 07: ViewBinding e DatePicker.
   - [Documentação do View Binding](https://developer.android.com/topic/libraries/view-binding)
-  - [Artigo sobre View Binding](https://medium.com/androiddevelopers/use-view-binding-to-replace-findviewbyid-c83942471fc) - Aula - 08: Time Picker.
-  - Problema com o TimeZone [stackoverflow](https://stackoverflow.com/a/60979837) - Aula - 09: RecyclerView.
+  - [Artigo sobre View Binding](https://medium.com/androiddevelopers/use-view-binding-to-replace-findviewbyid-c83942471fc)
+- Aula - 08: Time Picker.
+  - Problema com o TimeZone [stackoverflow](https://stackoverflow.com/a/60979837)
+- Aula - 09: RecyclerView.
   - Documentação do [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=pt-br).
 - Aula - 10: Mostrando lista de tarefas.
   - [Popup menu](https://material.io/components/menus#usage)
