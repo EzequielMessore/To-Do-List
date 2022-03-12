@@ -9,6 +9,11 @@ O curso pode ser acessado na plataforma da [Digital Innovation One](https://digi
 ## <br />Descrição do Lab.
 O objetivo do projeto é criar um App de `To do list` do zero mostrando o processo de desenvolvimento usando Kotlin, uma das linguagens de programação de maior ascensão dos últimos anos. Além disto, desafiar a evolução do App e entregar uma solução mais robusta pensando sempre na melhor experiência do usuário.
 
+## PRs importantes.
+Ao longo do tempo foram detectados alguns detalhes importantes no projeto, em atuação a esses detalhes forem criados os seguintes Pull Request e mergeados a branch master:
+- [APIs Activity Result](https://github.com/EzequielMessore/To-Do-List/pull/1)
+- [Duplicando item ao fazer a edição.](https://github.com/EzequielMessore/To-Do-List/pull/2)
+
 ## Aulas e materiais de estudo.
 - Aula - 01: Apresentação pessoal e apresentação do curso.
   - [Apresentação](https://drive.google.com/file/d/1KhneglCpya7VgAsczDsa7zXmpWkyo0XZ/view?usp=sharing)
@@ -38,7 +43,7 @@ O objetivo do projeto é criar um App de `To do list` do zero mostrando o proces
 
 
 ## Desafios
-Tornar nosso aplicativo um aplicativo resiliente que não perca nossas tarefas salvas quando é encerrado, para isto podemos usar a estratégia de salvar nossos dados localmente.  
+Tornar nosso aplicativo um aplicativo resiliente que não perca nossas tarefas salvas quando é encerrado, para isto podemos usar a estratégia de salvar nossos dados localmente.
 Podemos fazer isto de duas maneiras usar nossas [Shared Preferences](https://developer.android.com/training/data-storage/shared-preferences?hl=pt-br) ou nosso [SQLite](https://developer.android.com/training/data-storage/sqlite) para utilizar os esses conceitos de uma maneira facilitada devemos usar as seguintes bibliotecas:
 
  - [Room](https://developer.android.com/training/data-storage/room): é um banco de dados que oferece uma camada de abstração sobre o SQLite, e nos ajuda a lidar melhor com a complexidade do mesmo.
