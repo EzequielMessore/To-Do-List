@@ -11,7 +11,8 @@ object TaskDataSource {
         if (task.id == 0) {
             list.add(task.copy(id = list.size + 1))
         } else {
-            list.remove(task)
+            val taskToRemove = list.find { task.id == it.id }
+            list.remove(taskToRemove)
             list.add(task)
         }
     }
